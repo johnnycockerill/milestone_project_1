@@ -1,5 +1,122 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*-------------------------------------colors*/
+
 body {
-    color:blue
+    background-color: aliceblue;
+}
+
+#footer {
+    background-color: lightgrey;
+}
+
+/*-------------------------------------header*/
+
+body {
+    position: relative;
+}
+
+#hero-image {
+    background: url("../images/gym.jpg");
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#main-title {
+    width: fit-content;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-left: 8%;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#main-title-text {
+    font-size: 65px;
+    font-weight: 800;
+    color: rgb(104, 10, 49);
+    letter-spacing: 5px;
+}
+
+#page-header {
+    position: absolute;
+    width: fit-content;
+    background-color: aliceblue;
+    bottom: 0;
+    text-align: right;
+    right: 8%;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#page-header-text {
+    color: rgb(104, 10, 49);
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+#nav  li{
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+#nav {
+    padding: 0;
+    margin-left: 8%;
+}
+
+#nav a:hover {
+    color: rgb(104, 10, 49);
+    text-decoration: none;
+    transition: all 1s ease;
+    -webkit-transition-delay:all 1s ease;
+    -moz-transition-delay:all 1s ease;
+    -ms-transition-delay:all 1s ease;
+    -o-transition-delay:all 1s ease;
+}
+
+/*-------------------------------------------------footer*/
+
+footer {
+    width: 100%;
+    height: 7vh;
+    position: relative;
+    bottom: 0;
+}
+
+#footer li a {
+    margin: auto 0;
+    padding-top: 4px;
+}
+
+/*------------------------------------------------section*/
+
+.item {
+    scroll-snap-align: center;
+    width: 25%;
+    height: fit-content;
+}
+
+.item-list {
+    max-width: 950px;
+    height: fit-content;
+    width: 50vw;
+    display: flex;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.item-list::-webkit-scrollbar {
+    display: none;
 }

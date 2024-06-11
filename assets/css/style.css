@@ -12,52 +12,54 @@ body {
 
 /*-------------------------------------header*/
 
-body {
-    position: relative;
-}
-
 #hero-image {
+    width: 100vw;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
     background: url("../images/gym.jpg");
-    width: 100%;
-    height: 45vh;
-    position: relative;
+    background-size: cover;
+    position: absolute;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
-    margin: 0 auto;
 }
 
 #main-title {
+    margin: 0;
+    padding: 0;
     width: fit-content;
     background-color: aliceblue;
-    margin-top: 50px;
-    margin-left: 8%;
-    padding: 5px;
-    border-radius: 3px;
+    border-radius: 0.3rem;
 }
 
 #main-title-text {
-    font-size: 65px;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
     font-weight: 800;
     color: rgb(104, 10, 49);
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border: solid 4px;
+    border-color: rgb(247, 211, 51);
 }
 
 #page-header {
-    position: absolute;
+    position: relative;
+    right: 0;
+    bottom: 0;
     width: fit-content;
     background-color: aliceblue;
-    bottom: 0;
-    text-align: right;
-    right: 8%;
-    padding: 5px;
     border-radius: 3px;
+    border: solid 4px;
+    border-color: rgb(247, 211, 51);
 }
 
 #page-header-text {
     color: rgb(104, 10, 49);
-    font-size: 40px;
-    letter-spacing: 3px;
+    font-size: 1rem;
+    letter-spacing: 1px;
     font-weight: 600;
 }
 
@@ -70,7 +72,6 @@ body {
 
 #nav {
     padding: 0;
-    margin-left: 8%;
 }
 
 #nav a:hover {
@@ -88,16 +89,20 @@ body {
 footer {
     width: 100%;
     height: 7vh;
-    position: relative;
+    position: sticky;
+    position: -webkit-sticky;
     bottom: 0;
 }
 
 #footer li a {
     margin: auto 0;
-    padding-top: 4px;
 }
 
 /*------------------------------------------------section*/
+
+
+
+/*--------------------------------------carousel*/
 
 .item {
     scroll-snap-align: center;
@@ -106,9 +111,10 @@ footer {
 }
 
 .item-list {
+    margin: 10px auto;
     max-width: 950px;
     height: fit-content;
-    width: 50vw;
+    width: 75vw;
     display: flex;
     scroll-behavior: smooth;
     overflow: auto;
@@ -119,4 +125,52 @@ footer {
 
 .item-list::-webkit-scrollbar {
     display: none;
+}
+
+/*----------------------------------------class-page*/
+
+#class-form {
+    margin: 30px auto;
+    width: 70%;
+}
+/*
+#day, #mon, #tues, #weds, #thurs, #fri, #sat, #sun {
+    margin-left: 8vw;
+    width: 84vw;
+}
+*/
+.day {
+    width: 20%;
+    display: inline-block;
+}
+
+.column1 {
+    width: 20%;
+    display: inline-block;
+}
+
+.column2 {
+    width: 20%;
+    display: inline-block;
+}
+
+.column3 {
+    width: 20%;
+    display: inline-block;
+}
+
+.ButtonState {
+    display:none
+}
+
+.Button {
+    padding:3px; 
+    margin:4px; 
+    background:#CCC; 
+    border:1px solid #333; 
+    cursor:pointer;
+}
+
+.ButtonState:checked + .Button {
+    background:#fff;
 }

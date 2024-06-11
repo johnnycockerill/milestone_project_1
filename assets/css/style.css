@@ -13,19 +13,22 @@ body {
 /*-------------------------------------header*/
 
 #hero-image {
-    width: 100vw;
+    position: relative;
+    width: 100%;
     height: 30vh;
     margin: 0;
     padding: 0;
     background: url("../images/gym.jpg");
     background-size: cover;
-    position: absolute;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
 }
 
 #main-title {
+    position: absolute;
+    left: 0;
+    top: 0;
     margin: 0;
     padding: 0;
     width: fit-content;
@@ -46,10 +49,10 @@ body {
 }
 
 #page-header {
-    position: relative;
+    width: fit-content;
+    position: absolute;
     right: 0;
     bottom: 0;
-    width: fit-content;
     background-color: aliceblue;
     border-radius: 3px;
     border: solid 4px;
@@ -57,21 +60,23 @@ body {
 }
 
 #page-header-text {
+    width: fit-content;
     color: rgb(104, 10, 49);
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 600;
 }
 
+#nav {
+    margin: 0;
+    padding-left: 0;
+    padding-top: 0.5rem;
+}
+
 #nav  li{
     text-decoration: none;
     display: inline-block;
-    padding-right: 10px;
-    font-size: 20px;
-}
-
-#nav {
-    padding: 0;
+    font-size: 1rem;
 }
 
 #nav a:hover {
@@ -100,31 +105,82 @@ footer {
 
 /*------------------------------------------------section*/
 
+#club-ethos {
+    margin-top: 1.2rem;
+}
 
+.get-fit {
+    width: 100%;
+}
+
+#left-image-container {
+    width: 50%;
+    float: left;
+}
+
+#left-text {
+    width: 40%;
+    float: right;
+}
+
+#left-image {
+    width: 100%;
+}
+
+#left-text p {
+    padding: 0.1rem;
+}
+
+#left-content {
+    clear: both;
+}
+
+.get-involved {
+    width: 100%;
+}
+
+#right-image-container {
+    width: 50%;
+    float: right;
+}
+
+#right-text {
+    width: 40%;
+    float: left;
+}
+
+#right-image {
+    width: 100%;
+}
+
+#right-text p {
+    padding: 0.1rem;
+}
+
+#right-content {
+    clear: both;
+}
+
+.content-title {
+    color: rgb(104, 10, 49);
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+.get-involved h3 {
+    text-align: right;
+}
 
 /*--------------------------------------carousel*/
 
-.item {
-    scroll-snap-align: center;
-    width: 25%;
-    height: fit-content;
+#team-header {
+    clear: both;
 }
 
-.item-list {
-    margin: 10px auto;
-    max-width: 950px;
-    height: fit-content;
-    width: 75vw;
-    display: flex;
-    scroll-behavior: smooth;
-    overflow: auto;
-    scroll-snap-type: mandatory;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-.item-list::-webkit-scrollbar {
-    display: none;
+#carouselExampleIndicators {
+    width: 80%;
+    margin-left: 10%;
 }
 
 /*----------------------------------------class-page*/

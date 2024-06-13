@@ -198,6 +198,114 @@ footer {
 
 #class-form {
     width: 100%;
-    margin: 0;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
     padding: 0;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+tr {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.combat {
+    background-color: rgba(216, 27, 27, 0.3)
+}
+
+.circuit {
+    background-color: rgba(27, 27, 209, 0.3);
+}
+
+.yoga {
+    background-color: rgba(20, 212, 20, 0.3);
+}
+
+.legend {
+    width: 20%;
+    border: solid 2px;
+    border-radius: 4px;
+    text-align: center;
+    padding-right: 5px;
+}
+
+.legend-container {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.legend-label {
+    position: relative;
+    padding-left: 5px;
+}
+
+#inputs {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#full-name-class, #email-class {
+    width: 65%;
+    position: absolute;
+    right: 5%;
+}
+
+#class-submit {
+    margin-left: 5%;
+}
+
+/*---------------------------------------contact-page*/
+
+#name-contact-adult, #number-contact-adult, #email-contact-adult {
+    width: 65%;
+    position: absolute;
+    right: 5%;
+}
+
+#contact-adult-submit, #contact-junior-submit {
+    margin-left: 5%;
+}
+
+.contact-image-container {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    height: fit-content;
+}
+
+.contact-image {
+    width: 100%;
+    height: fit-content;
+}
+
+.contact-image img {
+    width: 90vw;
+    overflow: hidden;
+}
+.input-label {
+    width: 20%; 
+    margin-left: 5%;
+}
+
+#name-contact-junior, #number-contact-junior, #email-contact-junior {
+    width: 65%;
+    position: absolute;
+    right: 5%;
+}
+
+#age {
+    position: absolute;
+    right: 5%;
 }

@@ -42,6 +42,26 @@
             <h3 class="content-title">Class Schedule</h3>
         </div>
         <div>
+            <div class="legend-container">
+                <p class="yoga legend"> Y </p>
+                <div class="legend-label">
+                    <p>Yoga</p>
+                </div>
+            </div>
+            <div class="legend-container">
+                <p class="combat legend"> B </p>
+                <div class="legend-label">
+                    <p>Body Combat</p>
+                </div>
+            </div>
+            <div class="legend-container">
+                <p class="circuit legend"> C </p>
+                <div class="legend-label">
+                    <p>Circuits</p>
+                </div>
+            </div>
+        </div>
+        <div>
             <table>
                 <tr>
                     <th>Day</th>
@@ -51,75 +71,75 @@
                 </tr>
                 <tr>
                     <td>Mon</td>
-                    <td>
+                    <td class="yoga">
                         <input type="checkbox" id="yoga-mon-checkbox" name="yoga-mon">
                         <label for="yoga-mon-checkbox">Y</label>
                     </td>
-                    <td>
+                    <td class="combat">
                         <input type="checkbox" id="combat-mon-checkbox" name="combat-mon">
                         <label for="combat-mon-checkbox">B</label>
                     </td>
-                    <td>
+                    <td class="circuit">
                         <input type="checkbox" id="circuit-mon-checkbox" name="curcuit-mon">
                         <label for="curcuit-mon-checkbox">C</label>
                     </td>
                 </tr>
                 <tr>
                     <td>Tues</td>
-                    <td>
+                    <td class="yoga">
                         <input type="checkbox" id="yoga-tues-checkbox" name="yoga-tues">
                         <label for="yoga-tues-checkbox">Y</label>
                     </td>
-                    <td>
+                    <td class="combat">
                         <input type="checkbox" id="combat-tues-checkbox" name="combat-tues">
                         <label for="combat-tues-checkbox">B</label>
                     </td>
-                    <td>
+                    <td class="circuit">
                         <input type="checkbox" id="circuit-tues-checkbox" name="curcuit-tues">
                         <label for="curcuit-tues-checkbox">C</label>
                     </td>
                 </tr>
                 <tr>
                     <td>Mon</td>
-                    <td>
+                    <td class="yoga">
                         <input type="checkbox" id="yoga-weds-checkbox" name="yoga-weds">
                         <label for="yoga-weds-checkbox">Y</label>
                     </td>
-                    <td>
+                    <td class="combat">
                         <input type="checkbox" id="combat-weds-checkbox" name="combat-weds">
                         <label for="combat-weds-checkbox">B</label>
                     </td>
-                    <td>
+                    <td class="circuit">
                         <input type="checkbox" id="circuit-weds-checkbox" name="curcuit-weds">
                         <label for="curcuit-weds-checkbox">C</label>
                     </td>
                 </tr>
                 <tr>
                     <td>Mon</td>
-                    <td>
+                    <td class="yoga">
                         <input type="checkbox" id="yoga-thurs-checkbox" name="yoga-thurs">
                         <label for="yoga-thurs-checkbox">Y</label>
                     </td>
-                    <td>
+                    <td class="combat">
                         <input type="checkbox" id="combat-thurs-checkbox" name="combat-thurs">
                         <label for="combat-thurs-checkbox">B</label>
                     </td>
-                    <td>
+                    <td class="circuit">
                         <input type="checkbox" id="circuit-thurs-checkbox" name="curcuit-thurs">
                         <label for="curcuit-thurs-checkbox">C</label>
                     </td>
                 </tr>
                 <tr>
                     <td>Mon</td>
-                    <td>
+                    <td class="yoga">
                         <input type="checkbox" id="yoga-fri-checkbox" name="yoga-fri">
                         <label for="yoga-fri-checkbox">Y</label>
                     </td>
-                    <td>
+                    <td class="combat">
                         <input type="checkbox" id="combat-fri-checkbox" name="combat-fri">
                         <label for="combat-fri-checkbox">B</label>
                     </td>
-                    <td>
+                    <td class="circuit">
                         <input type="checkbox" id="circuit-fri-checkbox" name="curcuit-fri">
                         <label for="curcuit-fri-checkbox">C</label>
                     </td>
@@ -132,44 +152,44 @@
                 </tr>
                 <tr>
                     <td>Sat</td>
-                    <td>
+                    <td class="yoga">
                         <input type="checkbox" id="yoga-sat-checkbox" name="yoga-sat">
                         <label for="yoga-sat-checkbox">Y</label>
                     </td>
-                    <td>
+                    <td class="combat">
                         <input type="checkbox" id="combat-sat-checkbox" name="combat-sat">
                         <label for="combat-sat-checkbox">B</label>
                     </td>
-                    <td>
+                    <td class="circuit">
                         <input type="checkbox" id="circuit-sat-checkbox" name="curcuit-sat">
                         <label for="curcuit-sat-checkbox">C</label>
                     </td>
                 </tr>
                 <tr>
                     <td>Mon</td>
-                    <td>
+                    <td class="yoga">
                         <input type="checkbox" id="yoga-sun-checkbox" name="yoga-sun">
                         <label for="yoga-sun-checkbox">Y</label>
                     </td>
-                    <td>
+                    <td class="combat">
                         <input type="checkbox" id="combat-sun-checkbox" name="combat-sun">
                         <label for="combat-sun-checkbox">B</label>
                     </td>
-                    <td>
+                    <td class="circuit">
                         <input type="checkbox" id="circuit-sun-checkbox" name="curcuit-sun">
                         <label for="curcuit-sun-checkbox">C</label>
                     </td>
                 </tr>
             </table>
         </div>
-        <div>
-            <label for="full-name-class">Full Name:</label>
+        <div id="inputs">
+            <label class="input-label" for="full-name-class">Full Name:</label>
             <input type="text" id="full-name-class" name="full-name-class" placeholder="Full Name">
             <br>
-            <label for="email-class">Email:</label>
+            <label class="input-label" for="email-class">Email:</label>
             <input type="email" id="email-class" name="email-class" placeholder="email">
             <br>
-            <button type="submit">Book Class(es)</button>
+            <button id="class-submit" type="submit">Book Class(es)</button>
         </div>
     </form>
     <footer>

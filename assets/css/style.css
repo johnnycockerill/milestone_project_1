@@ -92,8 +92,9 @@ body {
 /*-------------------------------------------------footer*/
 
 footer {
+    clear: both;
     width: 100%;
-    height: 7vh;
+    height: 2rem;
     position: sticky;
     position: -webkit-sticky;
     bottom: 0;
@@ -269,9 +270,13 @@ tr {
 /*---------------------------------------contact-page*/
 
 #name-contact-adult, #number-contact-adult, #email-contact-adult {
-    width: 65%;
+    width: 45%;
     position: absolute;
     right: 5%;
+}
+
+#contact-adult, #contact-junior {
+    margin-top: 1rem;
 }
 
 #contact-adult-submit, #contact-junior-submit {
@@ -279,28 +284,26 @@ tr {
 }
 
 .contact-image-container {
-    margin-left: 5%;
-    margin-bottom: 5%;
-    width: 90%;
-    height: fit-content;
+    margin: 5%;
 }
 
-.contact-image {
+.contact-image-container img {
     width: 100%;
-    height: fit-content;
+    height: auto;
 }
 
-.contact-image img {
-    width: 90vw;
-    overflow: hidden;
+#contact-adult label, #contact-junior label {
+    line-height: 1rem;
+    font-size: 0.7rem;
 }
+
 .input-label {
-    width: 20%; 
+    width: 40%; 
     margin-left: 5%;
 }
 
 #name-contact-junior, #number-contact-junior, #email-contact-junior {
-    width: 65%;
+    width: 45%;
     position: absolute;
     right: 5%;
 }
@@ -308,4 +311,33 @@ tr {
 #age {
     position: absolute;
     right: 5%;
+}
+
+#chairman {
+    margin-top: 1rem;
+    clear: both;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#chairman-info {
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+    float: left;
+    width: 45%;
+}
+
+#chairman-img {
+    width: 45%;
+    float: right;
+}
+
+#chairman-img img {
+    width: 100%;
+    height: auto;
+}
+
+#contact-section {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }

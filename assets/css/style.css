@@ -129,6 +129,7 @@ footer {
 }
 
 #left-text p {
+    font-size: 0.7rem;
     padding: 0.1rem;
 }
 
@@ -156,6 +157,7 @@ footer {
 
 #right-text p {
     padding: 0.1rem;
+    font-size: 0.7rem;
 }
 
 #right-content {
@@ -171,6 +173,15 @@ footer {
 
 .get-involved h3 {
     text-align: right;
+}
+
+#left-text br, #right-text br {
+    line-height: 1rem;
+}
+
+.br {
+    visibility: hidden;
+    line-height: 1rem;
 }
 
 /*--------------------------------------carousel*/
@@ -320,6 +331,20 @@ tr {
     margin-left: 5%;
 }
 
+#captain {
+    margin-top: 1rem;
+    clear: both;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#captain-info {
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+    float: left;
+    width: 45%;
+}
+
 #chairman-info {
     font-size: 0.7rem;
     line-height: 0.9rem;
@@ -337,7 +362,207 @@ tr {
     height: auto;
 }
 
+#captain-img {
+    width: 45%;
+    float: right;
+}
+
+#captain-img img {
+    width: 100%;
+    height: auto;
+}
+
 #contact-section {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
+}
+
+/*----------------------------------------------media-query-tablet*/
+
+@media screen and (min-width: 481px), (max-width: 768px) {
+    #left-text p, #right-text p {
+        font-size: 1rem;
+    }
+
+    #main-title-text {
+        font-size: 2.8rem;
+    }
+
+    #page-header-text {
+        font-size: 1.5rem;
+    }
+
+    #club-ethos, #team-section, #map {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #map {
+        width: 90%;
+    }
+
+    .legend-container {
+        display: none;
+    }
+
+    .short-text {
+        display: none;
+    }
+
+    #contact-junior label, #contact-adult label, #contact-section p {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+}
+
+/*----------------------------------------------media-query-mobile*/
+
+@media screen and (max-width: 480px) {
+
+    .long-text {
+        display: none;
+    }
+
+    .short-text {
+        display: contents;
+    }
+    #left-text p, #right-text p {
+        font-size: 0.7rem;
+    }
+
+    #main-title-text {
+        font-size: 2rem;
+    }
+
+    #page-header-text {
+        font-size: 1rem;
+    }
+
+    #club-ethos, #team-section, #map {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #map {
+        width: 100%;
+    }
+
+    #contact-junior label, #contact-adult label, #contact-section p {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+
+    .legend-container {
+        display: contents;
+    }
+
+}
+
+/*-------------------------------------media-query-desktop*/
+
+@media screen and (min-width: 768px) {
+    #club-ethos {
+        margin: 5%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #left-content {
+        width: 45%;
+        float: left;
+    }
+
+    #right-content {
+        width: 45%;
+        float: right;
+    }
+
+    #left-text p, #right-text p {
+        font-size: 1rem;
+    }
+
+    #main-title-text {
+        font-size: 5rem;
+    }
+
+    #page-header-text {
+        font-size: 3rem;
+    }
+
+    #club-ethos, #team-section, #map {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .content-title {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    #map {
+        width: 90%;
+    }
+
+    .legend-container {
+        display: none;
+    }
+
+    .short-text {
+        display: none;
+    }
+
+    #contact-junior label, #contact-adult label, #contact-section p {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    #hero-image {
+        height: 45vh;
+    }
+
+    #carouselExampleIndicators {
+        width: 40%;
+        margin: 4rem auto;
+    }
+
+    .contact-desktop {
+        margin: 4%;
+        width: 90%;
+        position: relative;
+        clear: both;
+        display: inline-block
+    }
+
+    .contact-form-container {
+        position: absolute;
+        left: 0;
+        float: left;
+        width: 60%;
+    }
+
+    .contact-image-container {
+        position: absolute;
+        right: 0;
+        float: right;
+        margin: 0;
+        width: 30%;
+    }
+
+    #adult-form label {
+        width: 45%;
+    }
+
+    #adult-form input {
+        width: 45%;
+    }
+
+    #contact-adult {
+        clear: both;
+        height: auto;
+    }
+
+    #contact-junior {
+        clear: both;
+    }
 }

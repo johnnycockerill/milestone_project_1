@@ -541,42 +541,17 @@ tr {
     }
 
     .contact-desktop {
-        margin: 4%;
-        width: 90%;
-        position: relative;
         clear: both;
-        display: inline-block
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
-    .contact-form-container {
-        position: absolute;
-        left: 0;
-        float: left;
-        width: 60%;
+    #name-contact-adult, #number-contact-adult, #email-contact-adult, #name-contact-junior, #number-contact-junior, #email-contact-junior {
+        width: 20%;
     }
 
-    .contact-image-container {
-        position: absolute;
-        right: 0;
-        float: right;
-        margin: 0;
-        width: 30%;
+    .input-label {
+        width: 15%;
     }
 
-    #adult-form label {
-        width: 45%;
-    }
-
-    #adult-form input {
-        width: 45%;
-    }
-
-    #contact-adult {
-        clear: both;
-        height: auto;
-    }
-
-    #contact-junior {
-        clear: both;
-    }
 }

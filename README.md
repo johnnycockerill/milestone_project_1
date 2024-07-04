@@ -167,7 +167,7 @@ The main font used in the site is Roboto, with Exo as the fallback font in case 
 - Add animations to the welcome image.
 - The ability to pay for classes or a gym membership.
     - This could extend to the ability to log into the site as a paid member.
-- A link to the team shop, or the option to buy team merchandise directly from the site/
+- A link to the team shop, or the option to buy team merchandise directly from the site.
 
 ### Technologies Used
 
@@ -226,9 +226,52 @@ The main font used in the site is Roboto, with Exo as the fallback font in case 
 
 ### Accessibility
 
+* Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
+<details>
+  <summary>Expand Lighthouse Report Desktop</summary>
+  <img src="assets/images/lighthouse_desktop.jpg">
+</details>
+<details>
+  <summary>Expand Lighthouse Report Mobile</summary>
+  <img src="assets/images/lighthouse_mobile.jpg">
+</details>
+
 ### Tools Testing
 
+* Responsiveness
+
+    - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness of the site pages on different screen sizes.
+    
+    - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
+
 ### Manual Testing
+
+* Common Elements Testing
+
+    - All Pages
+
+        - **Navigation Bar**
+            - Hovering the cursor over nav bar link prompts active effect.
+            - Clicking on the navigation bar's links will bring the customer to the specified page.
+        
+        - **Footer**
+            - Hovering the cursor over nav bar link prompts active effect.
+            - Clicking on the social media links will open the specific website on a new tab.
+
+    - Index Page
+
+        - Image carousel works without input.
+        - clicking on map, opens live Google maps onto correct location.
+
+    - Class Schedule Page
+
+        - Clicking classes ticks the box corresponding to that choice.
+        - Form input requires all fields to have content.
+
+    - Contact Page
+
+        - Both form inputs require all fields to be populated.
+        - The e-mail input field requires the correct e-mail format.
 
 ## Finished Product
 

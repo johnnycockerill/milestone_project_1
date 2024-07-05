@@ -474,7 +474,7 @@ tr {
 
 /*media-query-desktop*/
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     #club-ethos {
         margin: 5%;
         width: 90%;
@@ -540,18 +540,25 @@ tr {
         margin: 4rem auto;
     }
 
-    .contact-desktop {
-        clear: both;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
     #name-contact-adult, #number-contact-adult, #email-contact-adult, #name-contact-junior, #number-contact-junior, #email-contact-junior {
         width: 20%;
     }
 
     .input-label {
         width: 15%;
+    }
+
+    .contact-desktop {
+        height: 60vh;
+    }
+
+    .contact-image-container {
+        width: auto;
+        height: 40%;
+    }
+
+    #class-form {
+        width: 80%;
     }
 
 }

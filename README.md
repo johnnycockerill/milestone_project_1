@@ -224,6 +224,27 @@ The main font used in the site is Roboto, with Exo as the fallback font in case 
 
 ### Code Validation
 
+- W3 Validator has highlighted some HTML bugs:
+<details>
+  <summary>Expand W3 Index Validation</summary>
+  <img src="assets/images/index_validation.JPG">
+</details>
+<details>
+  <summary>Expand W3 Class Validation</summary>
+  <img src="assets/images/class_validation.JPG">
+</details>
+<details>
+  <summary>Expand W3 Contact Validation</summary>
+  <img src="assets/images/contact_validation.JPG">
+</details>
+<br>
+
+- W3C Validator shows zero errors with CSS:
+<details>
+  <summary>Expand W3C CSS Validation</summary>
+  <img src="assets/images/css_validation.JPG">
+</details>
+
 ### Accessibility
 
 * Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
@@ -249,7 +270,6 @@ The main font used in the site is Roboto, with Exo as the fallback font in case 
 * Common Elements Testing
 
     - All Pages
-
         - **Navigation Bar**
             - Hovering the cursor over nav bar link prompts active effect.
             - Clicking on the navigation bar's links will bring the customer to the specified page.

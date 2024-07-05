@@ -474,7 +474,7 @@ tr {
 
 /*media-query-desktop*/
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     #club-ethos {
         margin: 5%;
         width: 90%;
@@ -550,6 +550,7 @@ tr {
 
     .contact-desktop {
         height: 60vh;
+        display: inline;
     }
 
     .contact-image-container {
@@ -558,7 +559,9 @@ tr {
     }
 
     #class-form {
-        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
 }

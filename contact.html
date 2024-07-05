@@ -46,17 +46,17 @@
                     <img src="assets/images/newport.JPG" alt="newport stumps and field">
                 </div>
                 <div class="contact-form-container">
-                    <form id="adult-form" method="post">
+                    <form id="adult-form">
                         <label class="input-label" for="name-contact-adult">Full Name:</label>
-                        <input type="text" id="name-contact-adult" name="name-contact-adult" placeholder="Full Name">
+                        <input type="text" id="name-contact-adult" name="name-contact-adult" placeholder="Full Name" required>
                         <br>
                         <label class="input-label" for="number-contact-adult">Phone No:</label>
-                        <input type="text" id="number-contact-adult" name="number-contact-adult" placeholder="Number">
+                        <input type="text" id="number-contact-adult" name="number-contact-adult" placeholder="Number" required>
                         <br>
                         <label class="input-label" for="email-contact-adult">Email:</label>
-                        <input type="email" id="email-contact-adult" name="email-contact-adult" placeholder="Email">
+                        <input type="email" id="email-contact-adult" name="email-contact-adult" placeholder="Email" required>
                         <br>
-                        <button id="contact-adult-submit" type="submit">Send Details</button>
+                        <button id="contact-adult-submit" type="submit" onclick="adultsubmit()">Send Details</button>
                     </form>
                 </div>
             </div>
@@ -67,20 +67,20 @@
             </div>
             <div class="contact-desktop">
                 <div class="contact-image-container">
-                    <iframe width="auto" height="80%" src="https://www.youtube.com/embed/BTUEz0xkbdI" title="Cricket batting basics | 5 basics of cricket batting for beginners | cricket coaching for kids" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen autoplay aria-controls muted></iframe>
+                    <iframe width="auto" height="100%" src="https://www.youtube.com/embed/BTUEz0xkbdI" title="Cricket batting basics | 5 basics of cricket batting for beginners | cricket coaching for kids" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen autoplay aria-controls muted></iframe>
                 </div>
-                <form method="post">
+                <form id="junior-form">
                     <label class="input-label" for="name-contact-junior">Name of Parent/Guardian:</label>
-                    <input type="text" id="name-contact-junior" name="name-contact-junior" placeholder="Full Name">
+                    <input type="text" id="name-contact-junior" name="name-contact-junior" placeholder="Full Name" required>
                     <br>
                     <label class="input-label" for="number-contact-junior">Phone No:</label>
-                    <input type="text" id="number-contact-junior" name="number-contact-junior" placeholder="Number">
+                    <input type="text" id="number-contact-junior" name="number-contact-junior" placeholder="Number" required>
                     <br>
                     <label class="input-label" for="email-contact-junior">Email:</label>
-                    <input type="email" id="email-contact-junior" name="email-contact-junior" placeholder="Email">
+                    <input type="email" id="email-contact-junior" name="email-contact-junior" placeholder="Email" required>
                     <br>
                     <label class="input-label" for="age">Age of Future Cricketer:</label>
-                    <select id="age" name="age">
+                    <select id="age" name="age" required>
                         <option value="placeholder" selected>Click to select</option>
                         <option value="option">5</option>
                         <option value="option">6</option>
@@ -97,7 +97,7 @@
                         <option value="option">17</option>
                     </select>
                     <br>
-                    <button id="contact-junior-submit" type="submit">Send Details</button>
+                    <button id="contact-junior-submit" type="submit" onclick="juniorsubmit()">Send Details</button>
                 </form>
             </div>
         </div>
@@ -153,5 +153,25 @@
             </ul>
         </div>
     </footer>
+    <script>
+        function adultsubmit() {
+          let text = "Information Sent\nEither OK or Cancel.";
+          if (confirm(text) == true) {
+            text = "You pressed OK!";
+          } else {
+            text = "You canceled!";
+          }
+          document.getElementById("demo").innerHTML = text;
+        }
+        function juniorsubmit() {
+          let text = "Information Sent\nEither OK or Cancel.";
+          if (confirm(text) == true) {
+            text = "You pressed OK!";
+          } else {
+            text = "You canceled!";
+          }
+          document.getElementById("demo").innerHTML = text;
+        }
+        </script>
 </body>
 </html>

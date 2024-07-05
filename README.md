@@ -300,6 +300,7 @@ The main font used in the site is Roboto, with Exo as the fallback font in case 
 * [Hero Image - Aberdeen Sports Village](https://www.aberdeensportsvillage.com/imager/images/3463/20190831_AberdeenSportsVillage_NewGym_002_eaf97de94269862e8bb6a5cf5fce55e2.webp)
 * [Allstars Image - ECB](https://www.resources.ecb.co.uk/photo-resources/2023/04/17/b00bf8bc-39fb-4270-bd31-62bfbc885057/all-stars-hero-bg-x2.jpeg?width=1766&height=608)
 * [Involved Image - YMCA](https://www.ymca.org/sites/default/files/styles/portrait/public/2021-06/strengthening-communities.jpg?itok=FRTI2Wrh)
+* [Training Video](https://www.youtube.com/watch?v=BTUEz0xkbdI)
 
 - All other images are courtesy of Newport CC
 

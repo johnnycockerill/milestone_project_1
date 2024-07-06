@@ -559,9 +559,15 @@ tr {
     }
 
     #class-form {
+        width: 80%;
         margin-top: 5%;
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .contact-image-container iframe {
+        width: 400px;
+        height: 300px;
     }
 
 }

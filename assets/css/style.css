@@ -474,7 +474,7 @@ tr {
 
 /*media-query-desktop*/
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     #club-ethos {
         margin: 5%;
         width: 90%;

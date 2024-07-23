@@ -6,7 +6,7 @@ JC's Gym is a located in a rural village in East Riding of Yorkshire on the same
 
 The purpose of the site is to attract new members to sign up to the Gym classes or show interest in joining the cricket team.
 
-[Visit deployed website](https://8000-johnnycocke-milestonepr-amvq8vrznsm.ws.codeinstitute-ide.net/)
+[Visit deployed website](https://johnnycockerill.github.io/milestone_project_1/)
 
 ## Table of Contents
 1. [User Experience (UX)](#user-experience-ux)

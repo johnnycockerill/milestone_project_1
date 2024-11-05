@@ -226,7 +226,7 @@ The main font used in the site is Roboto, with Exo as the fallback font in case 
 
 ### Code Validation
 
-- W3 Validator has highlighted some HTML bugs:
+- W3 Validator has highlighted one HTML bug, it defines the iframe attribute of width and height as requiring a numeric value, however for my prupose it works as a percentage:
 <details>
   <summary>Expand W3 Index Validation</summary>
   <img src="assets/images/index_validation.JPG">

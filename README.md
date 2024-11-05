@@ -8,6 +8,8 @@ The purpose of the site is to attract new members to sign up to the Gym classes 
 
 [Visit deployed website](https://johnnycockerill.github.io/milestone_project_1/)
 
+<img src="assets/images/intro.JPG">
+
 ## Table of Contents
 1. [User Experience (UX)](#user-experience-ux)
     1. [Project Goals](#project-goals)

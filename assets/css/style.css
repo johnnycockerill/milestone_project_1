@@ -553,9 +553,19 @@ tr {
         display: inline;
     }
 
-    .contact-image-container {
-        width: auto;
-        height: 40%;
+    .contact-image-container img {
+        width: 30%;
+        height: auto;
+    }
+
+    #chairman-img img {
+        width: 40%;
+        float: left;
+    }
+    
+    #captain-img img {
+        width: 40%;
+        float: left;
     }
 
     #class-form {

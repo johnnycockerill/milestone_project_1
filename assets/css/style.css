@@ -67,19 +67,19 @@ body {
     font-weight: 600;
 }
 
-#nav {
+.nav {
     margin: 0;
     padding-left: 0;
     padding-top: 0.5rem;
 }
 
-#nav  li{
+.nav  li{
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
 }
 
-#nav a:hover {
+.nav a:hover {
     color: rgb(104, 10, 49);
     text-decoration: none;
     transition: all 1s ease;

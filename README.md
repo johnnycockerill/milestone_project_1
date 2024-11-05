@@ -335,5 +335,5 @@ The main font used in the site is Roboto, with Exo as the fallback font in case 
 
 ## Acknowledgements
 
-* My tutor, Paul, for his tuition.
+* My tutor, Rokon, for his tuition.
 * My mentor, Marcel, for his feedback and guidance.
